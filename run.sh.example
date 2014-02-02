@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Create a new Twitter App here: https://dev.twitter.com/apps/new
+export CONSUMER_KEY='xxxx'
+export CONSUMER_SECRET='xxxx'
+export ACCESS_TOKEN='xxxx'
+export ACCESS_TOKEN_SECRET='xxxx'
+
+./twitter_follow/main.py
