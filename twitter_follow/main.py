@@ -44,7 +44,7 @@ def follow_automatically(screen_names):
         print("Following {}".format(screen_name))
         print(_API.create_friendship(screen_name=screen_name).screen_name)
         delay = random.randrange(0, 86 * 2)  # average 86 seconds=1000 per day
-        print("Waiting {} seconds")
+        print("Waiting {} seconds".format(delay))
         time.sleep(delay)
 
 
